@@ -4,8 +4,6 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const {schema} = mongoose;
-const {nanoid} = require('nanoid');
 const bodyParser = require("body-parser");
 
 const mongoDbControllers = require("./mongoDB/controllers");
